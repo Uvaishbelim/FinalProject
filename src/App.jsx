@@ -15,14 +15,12 @@ import Fact from './Fact'
 import Tastimonial from './Tastimonial'
 import Footer from './Footer'
 import Copyright from './Copyright'
-import Spinner from './Spinner'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     
       <Navbar/>
       <HeroSection/>
       <FeatursSection/>
