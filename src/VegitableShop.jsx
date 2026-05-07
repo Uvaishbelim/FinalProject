@@ -1,6 +1,6 @@
 import React from 'react'
 
-const VesitableShop = () => {
+const vegitableShop = () => {
     return (
         <div className="container-fluid vesitable py-5">
             <div className="container py-5">
@@ -125,4 +125,4 @@ const VesitableShop = () => {
     )
 }
 
-export default VesitableShop
+export default vegitableShop

@@ -8,7 +8,7 @@ import HeroSection from './HeroSection'
 import FeatursSection from './FeatursSection'
 import FruitsShop from './FruitsShop'
 import Featurs from './Featurs'
-import VesitableShop from './VesitableShop'
+import VegitableShop from './VegitableShop'
 import BannerSection from './BannerSection'
 import BestsalerProduct from './BestsalerProduct'
 import Fact from './Fact'
@@ -26,7 +26,7 @@ function App() {
       <FeatursSection/>
       <FruitsShop/>
       <Featurs/>
-      <VesitableShop/>
+      <VegitableShop/>
       <BannerSection/>
       <BestsalerProduct/>
       <Fact/>
