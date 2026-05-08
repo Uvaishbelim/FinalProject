@@ -1,5 +1,5 @@
 {
-    "categories":[
+    "category":[
         {
             "id":1,
             "name":"Fruits"
@@ -15,6 +15,17 @@
         {
             "id":4,
             "name":"Meat"
+        }
+    ],
+
+    "products":[
+        {
+            "id":1,
+            "catId":1,
+            "pname":"asdf",
+            "price":"234",
+            "desc":"wKDG wdhlhd",
+            "image":""
         }
     ]
 }

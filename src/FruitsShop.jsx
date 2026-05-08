@@ -1,6 +1,11 @@
-import React from 'react'
+import axios from 'axios';
+import React, { useEffect, useState } from 'react'
 
 const FruitsShop = () => {
+    const[cat ,setCat]=useState([]);
+    useEffect(()=>{
+        axios.get("http://localhost:3000/category").then((res)=>setCat(res.data))
+    },[]);
     return (
         <div className="container-fluid fruite py-5">
             <div className="container py-5">
@@ -16,26 +21,23 @@ const FruitsShop = () => {
                                         <span className="text-dark" style={{ width: 130 }}>All Products</span>
                                     </a>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
-                                        <span className="text-dark" style={{ width: 130 }}>Vegetables</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
-                                        <span className="text-dark" style={{ width: 130 }}>Fruits</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
-                                        <span className="text-dark" style={{ width: 130 }}>Bread</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
-                                        <span className="text-dark" style={{ width: 130 }}>Meat</span>
-                                    </a>
-                                </li>
+
+                                {
+                                    cat.map((i, index) => {
+                                        return (
+                                            <li className="nav-item">
+                                                <a className="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" 
+                                                href={"#tab-"+(index+2)}
+                                                >
+                                                    <span className="text-dark" style={{ width: 130 }}>
+                                                    {i.name}
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        )
+                                    })
+                                }
+
                             </ul>
                         </div>
                     </div>
