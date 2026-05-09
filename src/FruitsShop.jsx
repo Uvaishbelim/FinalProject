@@ -37,7 +37,6 @@ const FruitsShop = () => {
                                         )
                                     })
                                 }
-
                             </ul>
                         </div>
                     </div>
