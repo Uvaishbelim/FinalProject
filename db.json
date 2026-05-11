@@ -22,10 +22,27 @@
         {
             "id":1,
             "catId":1,
+            "pname":"oranges",
+            "price":"234",
+            "desc":"wKDG wdhlhd",
+            "image":"img/fruite-item-1.jpg"
+        },
+        {
+            "id":2,
+            "catId":2,
+            "pname":"asdf",
+            "price":"34",
+            "desc":"wKDG wdhlhd",
+            "image":"img/vegetable-item-2.jpg"
+        },
+        {
+            "id":3,
+            "catId":1,
             "pname":"asdf",
             "price":"234",
             "desc":"wKDG wdhlhd",
-            "image":""
+            "image":"img/fruite-item-4.jpg"
         }
     ]
+    
 }
