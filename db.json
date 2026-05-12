@@ -1,48 +1,79 @@
 {
-    "category":[
-        {
-            "id":1,
-            "name":"Fruits"
-        },
-        {
-            "id":2,
-            "name":"Vegetables"
-        },
-        {
-            "id":3,
-            "name":"Bread"
-        },
-        {
-            "id":4,
-            "name":"Meat"
-        }
-    ],
-
-    "products":[
-        {
-            "id":1,
-            "catId":1,
-            "pname":"oranges",
-            "price":"234",
-            "desc":"wKDG wdhlhd",
-            "image":"img/fruite-item-1.jpg"
-        },
-        {
-            "id":2,
-            "catId":2,
-            "pname":"asdf",
-            "price":"34",
-            "desc":"wKDG wdhlhd",
-            "image":"img/vegetable-item-2.jpg"
-        },
-        {
-            "id":3,
-            "catId":1,
-            "pname":"asdf",
-            "price":"234",
-            "desc":"wKDG wdhlhd",
-            "image":"img/fruite-item-4.jpg"
-        }
-    ]
-    
+  "category": [
+    {
+      "id": "1",
+      "name": "Fruits"
+    },
+    {
+      "id": "2",
+      "name": "Vegetables"
+    },
+    {
+      "id": "3",
+      "name": "Bread"
+    },
+    {
+      "id": "4",
+      "name": "Meat"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "catId": 1,
+      "pname": "oranges",
+      "price": "234",
+      "desc": "🍊🎃🧡 Orange combines the energy of red and the happiness of yellow. It is associated with joy, sunshine, and the tropics. Orange represents enthusiasm, fascination, happiness, creativity, determination, attraction, success, encouragement, and stimulation",
+      "image": "img/fruite-item-1.jpg"
+    },
+    {
+      "id": "2",
+      "catId": 2,
+      "pname": "brokoli",
+      "price": "34",
+      "desc": "wKDG wdhlhd",
+      "image": "img/vegetable-item-2.jpg"
+    },
+    {
+      "id": "3",
+      "catId": 1,
+      "pname": "asdf",
+      "price": "234",
+      "desc": "wKDG wdhlhd",
+      "image": "img/fruite-item-4.jpg"
+    }
+  ],
+  "addToCart": [
+    {
+      "pid": "1",
+      "qty": 1,
+      "id": "aw_OsybJvHY"
+    },
+    {
+      "pid": "2",
+      "qty": 1,
+      "id": "MqbAfmU5VAw"
+    },
+    {
+      "pid": "3",
+      "qty": 1,
+      "id": "WGcJ3kIqivo"
+    },
+    {
+      "pid": "3",
+      "qty": 1,
+      "id": "IE9ya011R-4"
+    },
+    {
+      "pid": "3",
+      "qty": 1,
+      "id": "m3pt6QGo7ls"
+    },
+    {
+      "pid": "2",
+      "qty": 1,
+      "id": "Q5yi9Vv-kKU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

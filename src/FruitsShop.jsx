@@ -4,10 +4,18 @@ import React, { useEffect, useState } from 'react'
 const FruitsShop = () => {
     const[cat ,setCat]=useState([]);
     const[pr ,setPr]=useState([]);
+  
     useEffect(()=>{
         axios.get("http://localhost:3000/category").then((res)=>setCat(res.data))
         axios.get("http://localhost:3000/products").then((res)=>setPr(res.data))
     },[]);
+
+     // ADD TO CART FUNCTION
+     const addToCart = (pid) => {
+        axios.post("http://localhost:3000/addToCart",{pid:pid,
+            qty:1,}).then(()=>console.log("data added"))
+    }
+
     return (
         <div className="container-fluid fruite py-5">
             <div className="container py-5">
@@ -62,7 +70,12 @@ const FruitsShop = () => {
                                                             <p>{i.desc}</p>
                                                             <div className="d-flex justify-content-between flex-lg-wrap">
                                                                 <p className="text-dark fs-5 fw-bold mb-0">${i.price}/kg</p>
-                                                                <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
+                                                                <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"
+                                                                onClick={(e) => {
+                                                                    addToCart(i.id);
+                                                                }}>
+                                                                    <i className="fa fa-shopping-bag me-2 text-primary" />
+                                                                     Add to cart</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -92,7 +105,10 @@ const FruitsShop = () => {
                                                             <p>{j.desc}</p>
                                                             <div className="d-flex justify-content-between flex-lg-wrap">
                                                                 <p className="text-dark fs-5 fw-bold mb-0">{j.price}/ kg</p>
-                                                                <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
+                                                                <a href="#" className="btn border border-secondary rounded-pill px-3 text-primary" 
+                                                                 onClick={(e) => {
+                                                                    addToCart(j.id);
+                                                                }}><i className="fa fa-shopping-bag me-2 text-primary" /> Add to cart</a>
                                                             </div>
                                                         </div>
                                                     </div>
