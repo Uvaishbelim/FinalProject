@@ -23,7 +23,7 @@
       "catId": 1,
       "pname": "oranges",
       "price": "234",
-      "desc": "🍊🎃🧡 Orange combines the energy of red and the happiness of yellow. It is associated with joy, sunshine, and the tropics. Orange represents enthusiasm, fascination, happiness, creativity, determination, attraction, success, encouragement, and stimulation",
+      "desc": "🍊🎃🧡 Orange combines the energy of red and the happiness of yellow.",
       "image": "img/fruite-item-1.jpg"
     },
     {
@@ -46,33 +46,63 @@
   "addToCart": [
     {
       "pid": "1",
-      "qty": 1,
-      "id": "aw_OsybJvHY"
+      "qty": 5,
+      "id": "nC1IQCnPpSk"
+    },
+    {
+      "pid": "3",
+      "qty": 3,
+      "id": "vrcQodbJH1k"
     },
     {
       "pid": "2",
       "qty": 1,
-      "id": "MqbAfmU5VAw"
+      "id": "GxpYgVc4Tn0"
     },
     {
-      "pid": "3",
+      "pid": "1",
       "qty": 1,
-      "id": "WGcJ3kIqivo"
+      "id": "aeH_fXHLR9E"
     },
     {
-      "pid": "3",
+      "pid": "1",
       "qty": 1,
-      "id": "IE9ya011R-4"
+      "id": "VcXWqlf4oko"
     },
     {
-      "pid": "3",
+      "pid": "1",
       "qty": 1,
-      "id": "m3pt6QGo7ls"
+      "id": "5-Z8B3Woc74"
+    },
+    {
+      "pid": "1",
+      "qty": 1,
+      "id": "S_ycMG1svl0"
+    },
+    {
+      "pid": "1",
+      "qty": 1,
+      "id": "6OX04S35XKI"
     },
     {
       "pid": "2",
       "qty": 1,
-      "id": "Q5yi9Vv-kKU"
+      "id": "PUCp7086eX4"
+    },
+    {
+      "pid": "3",
+      "qty": 1,
+      "id": "tyOS4Sjov_8"
+    },
+    {
+      "pid": "3",
+      "qty": 1,
+      "id": "lLQxwPI8qmE"
+    },
+    {
+      "pid": "3",
+      "qty": 1,
+      "id": "G_VHRYYFdZg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

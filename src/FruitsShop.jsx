@@ -10,11 +10,7 @@ const FruitsShop = () => {
         axios.get("http://localhost:3000/products").then((res)=>setPr(res.data))
     },[]);
 
-     // ADD TO CART FUNCTION
-     const addToCart = (pid) => {
-        axios.post("http://localhost:3000/addToCart",{pid:pid,
-            qty:1,}).then(()=>console.log("data added"))
-    }
+     
 
     return (
         <div className="container-fluid fruite py-5">

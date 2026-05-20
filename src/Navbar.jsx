@@ -24,15 +24,15 @@ const Navbar = () => {
       </button>
       <div className="collapse navbar-collapse bg-white" id="navbarCollapse">
         <div className="navbar-nav mx-auto">
-          <a href="index.html" className="nav-item nav-link active">Home</a>
-          <a href="shop.html" className="nav-item nav-link">Shop</a>
-          <a href="shop-detail.html" className="nav-item nav-link">Shop Detail</a>
+          <a href="/" className="nav-item nav-link active">Home</a>
+          <a href="/Shop" className="nav-item nav-link">Shop</a>
+          <a href="/ShopDetail" className="nav-item nav-link">Shop Detail</a>
           <div className="nav-item dropdown">
             <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
             <div className="dropdown-menu m-0 bg-secondary rounded-0">
-              <a href="cart.html" className="dropdown-item">Cart</a>
+              <a href="/Cart" className="dropdown-item">Cart</a>
               <a href="/checkout" className="dropdown-item">Checkout</a>
-              <a href="testimonial.html" className="dropdown-item">Testimonial</a>
+              <a href="/Testimonial" className="dropdown-item">Testimonial</a>
               <a href="404.html" className="dropdown-item">404 Page</a>
             </div>
           </div>
