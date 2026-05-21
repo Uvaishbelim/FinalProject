@@ -46,63 +46,13 @@
   "addToCart": [
     {
       "pid": "1",
-      "qty": 5,
+      "qty": 2,
       "id": "nC1IQCnPpSk"
-    },
-    {
-      "pid": "3",
-      "qty": 3,
-      "id": "vrcQodbJH1k"
-    },
-    {
-      "pid": "2",
-      "qty": 1,
-      "id": "GxpYgVc4Tn0"
-    },
-    {
-      "pid": "1",
-      "qty": 1,
-      "id": "aeH_fXHLR9E"
-    },
-    {
-      "pid": "1",
-      "qty": 1,
-      "id": "VcXWqlf4oko"
-    },
-    {
-      "pid": "1",
-      "qty": 1,
-      "id": "5-Z8B3Woc74"
-    },
-    {
-      "pid": "1",
-      "qty": 1,
-      "id": "S_ycMG1svl0"
-    },
-    {
-      "pid": "1",
-      "qty": 1,
-      "id": "6OX04S35XKI"
     },
     {
       "pid": "2",
       "qty": 1,
       "id": "PUCp7086eX4"
-    },
-    {
-      "pid": "3",
-      "qty": 1,
-      "id": "tyOS4Sjov_8"
-    },
-    {
-      "pid": "3",
-      "qty": 1,
-      "id": "lLQxwPI8qmE"
-    },
-    {
-      "pid": "3",
-      "qty": 1,
-      "id": "G_VHRYYFdZg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
